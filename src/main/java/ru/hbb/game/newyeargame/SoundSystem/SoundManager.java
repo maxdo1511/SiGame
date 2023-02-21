@@ -16,8 +16,8 @@ public class SoundManager {
     public ClipStage back_ground_music = ClipStage.NEED_TO_RUN;
     public boolean question_music_play = false;
     private Clip cur_sound;
-    private static final String sound_dir = "D:\\programs\\NewYearGame\\target\\classes\\sounds";
-    private static final String game_sound_dir = "D:\\programs\\NewYearGame\\target\\classes";
+    private static final String sound_dir = SoundManager.class.getResource("/sounds").getPath();
+    private static final String game_sound_dir = SoundManager.class.getResource("/game").getPath();
     private Map<String, Clip> loaded_sounds = new HashMap<>();
 
     public SoundManager(){

@@ -65,7 +65,7 @@ public final class GameController {
     }
 
     public void checkNewRaund(){
-        if (GameController.getInstance().buttons.size() == 25){
+        if (GameController.getInstance().buttons.size() == 3){
             GameController.getInstance().buttons.clear();
             GameData.getInstance().addRaund();
         }

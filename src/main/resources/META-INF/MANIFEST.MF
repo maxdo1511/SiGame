@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Main-Class: ru.hbb.game.newyeargame.NewYearApplication
+Class-Path: lib\javafx-fxml-19-win.jar lib\javafx-base-19-win.jar lib\ja
+ vafx-controls-19-win.jar lib\snakeyaml-1.33.jar lib\javafx-fxml-19.jar 
+ lib\javafx-controls-19.jar lib\javafx-graphics-19.jar lib\javafx-graphi
+ cs-19-win.jar lib\javafx-base-19.jar
+

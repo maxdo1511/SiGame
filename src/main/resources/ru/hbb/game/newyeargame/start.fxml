@@ -16,7 +16,7 @@
       </Button>
       <TextFlow layoutX="277.0" layoutY="14.0" prefHeight="71.0" prefWidth="347.0" textAlignment="CENTER">
          <children>
-            <Text fill="#ff1afb" strokeType="OUTSIDE" strokeWidth="0.0" text="Новогодняя игра" textAlignment="CENTER" wrappingWidth="156.13671875">
+            <Text fill="#ff1afb" strokeType="OUTSIDE" strokeWidth="0.0" text="SiGame" textAlignment="CENTER" wrappingWidth="156.13671875">
                <font>
                   <Font name="Franklin Gothic Medium Cond" size="42.0" />
                </font>
