@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #231a24;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.hbb.game.newyeargame.GameScreen.GameScreenController">
+   <children>
+      <Pane layoutY="-3.0" prefHeight="94.0" prefWidth="1920.0">
+         <children>
+            <TextFlow layoutX="787.0" layoutY="12.0" prefHeight="71.0" prefWidth="347.0" textAlignment="CENTER">
+               <children>
+                  <Text fill="#ff1afb" strokeType="OUTSIDE" strokeWidth="0.0" text="Новогодняя игра" textAlignment="CENTER" wrappingWidth="156.13671875">
+                     <font>
+                        <Font name="Franklin Gothic Medium Cond" size="42.0" />
+                     </font>
+                  </Text>
+               </children>
+            </TextFlow>
+         </children>
+      </Pane>
+      <VBox layoutX="31.0" layoutY="90.0" prefHeight="900.0" prefWidth="1424.0">
+         <children>
+            <HBox prefWidth="1424.0">
+               <children>
+                  <TextFlow prefHeight="200.0" prefWidth="300.0">
+                     <children>
+                        <AnchorPane prefWidth="200.0">
+                           <children>
+                              <Text fx:id="theme_0" fill="WHITE" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="298.091796875">
+                                 <font>
+                                    <Font name="Bell MT" size="52.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </TextFlow>
+                  <Separator orientation="VERTICAL" prefHeight="200.0" prefWidth="122.0" visible="false" />
+                  <Button fx:id="B_0" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_0" prefWidth="200.0" text="100" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="B_1" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_1" prefWidth="200.0" text="200" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="B_2" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_2" prefWidth="200.0" text="300" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="B_3" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_3" prefWidth="200.0" text="400" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="B_4" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_4" prefWidth="200.0" text="500" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="10.0" prefWidth="1424.0">
+               <children>
+                  <TextFlow prefHeight="200.0" prefWidth="300.0">
+                     <children>
+                        <AnchorPane prefWidth="200.0">
+                           <children>
+                              <Text fx:id="theme_1" fill="WHITE" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="298.091796875">
+                                 <font>
+                                    <Font name="Bell MT" size="52.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </TextFlow>
+                  <Separator orientation="VERTICAL" prefHeight="200.0" prefWidth="122.0" visible="false" />
+                  <Button fx:id="B_5" alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_5" prefHeight="200.0" prefWidth="200.0" text="100" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="B_6" alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_6" prefHeight="200.0" prefWidth="200.0" text="200" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="B_7" alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_7" prefHeight="200.0" prefWidth="200.0" text="300" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="B_8" alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_8" prefHeight="200.0" prefWidth="200.0" text="400" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="B_9" alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_9" prefHeight="200.0" prefWidth="200.0" text="500" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="210.0">
+               <children>
+                  <TextFlow prefHeight="200.0" prefWidth="300.0">
+                     <children>
+                        <AnchorPane prefWidth="200.0">
+                           <children>
+                              <Text fx:id="theme_2" fill="WHITE" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="298.091796875">
+                                 <font>
+                                    <Font name="Bell MT" size="52.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </TextFlow>
+                  <Separator orientation="VERTICAL" prefHeight="200.0" prefWidth="122.0" visible="false" />
+                  <Button fx:id="B_10" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_10" prefHeight="200.0" prefWidth="200.0" text="100" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="B_11" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_11" prefHeight="200.0" prefWidth="200.0" text="200" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="B_12" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_12" prefHeight="200.0" prefWidth="200.0" text="300" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="B_13" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_13" prefHeight="200.0" prefWidth="200.0" text="400" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="B_14" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_14" prefHeight="200.0" prefWidth="200.0" text="500" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="410.0">
+               <children>
+                  <TextFlow prefHeight="200.0" prefWidth="300.0">
+                     <children>
+                        <AnchorPane prefWidth="200.0">
+                           <children>
+                              <Text fx:id="theme_3" fill="WHITE" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="298.091796875">
+                                 <font>
+                                    <Font name="Bell MT" size="52.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </TextFlow>
+                  <Separator orientation="VERTICAL" prefHeight="200.0" prefWidth="122.0" visible="false" />
+                  <Button fx:id="B_15" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_15" prefHeight="200.0" prefWidth="200.0" text="100" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="B_16" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_16" prefHeight="200.0" prefWidth="200.0" text="200" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="B_17" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_17" prefHeight="200.0" prefWidth="200.0" text="300" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="B_18" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_18" prefHeight="200.0" prefWidth="200.0" text="400" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="B_19" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_19" prefHeight="200.0" prefWidth="200.0" text="500" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+            <HBox layoutX="10.0" layoutY="610.0">
+               <children>
+                  <TextFlow prefHeight="200.0" prefWidth="300.0">
+                     <children>
+                        <AnchorPane prefWidth="200.0">
+                           <children>
+                              <Text fx:id="theme_4" fill="WHITE" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="298.091796875">
+                                 <font>
+                                    <Font name="Bell MT" size="52.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </TextFlow>
+                  <Separator orientation="VERTICAL" prefHeight="200.0" prefWidth="122.0" visible="false" />
+                  <Button fx:id="B_20" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_20" prefHeight="200.0" prefWidth="200.0" text="100" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="B_21" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_21" prefHeight="200.0" prefWidth="200.0" text="200" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="B_22" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_22" prefHeight="200.0" prefWidth="200.0" text="300" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="B_23" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_23" prefHeight="200.0" prefWidth="200.0" text="400" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="pressed_B_24" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#pressed_B_24" prefHeight="200.0" prefWidth="200.0" text="500" textAlignment="CENTER" textFill="#a811d6">
+                     <font>
+                        <Font name="Bell MT" size="50.0" />
+                     </font>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <VBox fx:id="command_table" layoutX="1485.0" layoutY="90.0" prefHeight="900.0" prefWidth="400.0" />
+      <ScrollBar fx:id="scroll" layoutX="1885.0" layoutY="90.0" max="0.0" orientation="VERTICAL" prefHeight="900.0" prefWidth="20.0" />
+   </children>
+</AnchorPane>
