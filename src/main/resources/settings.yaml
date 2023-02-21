@@ -1,0 +1,5 @@
+raunds_amount: 2
+questions_data: "questions.yaml"
+raunds_data: "raunds.yaml"
+sounds_folder: "/sounds/"
+images_folder: "/images/"

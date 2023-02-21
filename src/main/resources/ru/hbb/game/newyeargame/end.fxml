@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #231a24;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.hbb.game.newyeargame.GameEndController.GameEndController">
+   <children>
+      <Text fill="#ff1afb" layoutX="600.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Победителем становится" textAlignment="CENTER" wrappingWidth="719.13671875">
+         <font>
+            <Font name="Arial Bold" size="56.0" />
+         </font>
+      </Text>
+      <TextFlow layoutX="601.0" layoutY="270.0" prefHeight="541.0" prefWidth="719.0" style="-fx-padding: 50;" textAlignment="CENTER">
+         <children>
+            <Text fx:id="winner" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="1780.998046875">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+         </children>
+      </TextFlow>
+   </children>
+</AnchorPane>
